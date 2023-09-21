@@ -183,18 +183,18 @@ int main() {
                         switch (mainChoice) {
                             case 1: {
                                 printf("\nDepartments\n");
-                                printf("1. CSE- in Faculty 20 teachers.\n   student 2000 running and 1500 alumni.\n  Fees 4 years- 8,00,000 taka.\n   Minimum Total GPA- 9.00 \n\n");
-                                printf("2. SWE- in Faculty 25 teachers.\n   student 1800 running and 1000 alumni.\n  Fees 4 years- 7,50,000 taka.\n   Minimum Total GPA- 8.75\n\n");
-                                printf("3. NFE- in Faculty 20 teachers.\n   student 1000 running and 800 alumni.\n  Fees 4 years- 5,00,000 taka.\n   Minimum Total GPA- 8.50\n\n");
-                                printf("4. JMC- in Faculty 22 teachers.\n   student 500 running and 500 alumni.\n  Fees 4 years- 7,00,000 taka.\n   Minimum Total GPA- 8.50\n\n");
-                                printf("5. Pharmacy- in Faculty 20 teachers.\n   student 150 running and 400 alumni.\n  Fees 4 years- 9,60,000 taka.\n   Minimum Total GPA- 8.00\n\n");
+                                printf("1. CSE- in Faculty 20 teachers.\n   student 2000 running and 1500 alumni.\n   Fees: 4 years- 8,00,000 taka.\n   Minimum Total GPA- 9.00 \n\n");
+                                printf("2. SWE- in Faculty 25 teachers.\n   student 1800 running and 1000 alumni.\n   Fees: 4 years- 7,50,000 taka.\n   Minimum Total GPA- 8.75\n\n");
+                                printf("3. NFE- in Faculty 20 teachers.\n   student 1000 running and 800 alumni.\n   Fees: 4 years- 5,00,000 taka.\n   Minimum Total GPA- 8.50\n\n");
+                                printf("4. JMC- in Faculty 22 teachers.\n   student 500 running and 500 alumni.\n   Fees: 4 years- 7,00,000 taka.\n   Minimum Total GPA- 8.50\n\n");
+                                printf("5. Pharmacy- in Faculty 20 teachers.\n   student 150 running and 400 alumni.\n   Fees: 4 years- 9,60,000 taka.\n   Minimum Total GPA- 8.00\n\n");
 
                                 // Display department details (TODO: Implement this part)
                                 break;
                             }
                             case 2:
                                 printf("\nDaffodil International University (DIU) is a private university located in Dhaka, Bangladesh. It was established in 2002 and has since grown to become one of the prominent private universities in the country.\n");
-                                printf("\nChairman	Md. Sabur Khan\nChancellor	President of Bangladesh\nVice-Chancellor	M. Lutfar Rahman\nLocation	Daffodil Smart City, Birulia - 1216, Dhaka, Bangladesh\nContact:+88-01******\n\n");
+                                printf("\nChairman:	Md. Sabur Khan\nChancellor:	President of Bangladesh\nVice-Chancellor:	M. Lutfar Rahman\nLocation:	Daffodil Smart City, Birulia - 1216, Dhaka, Bangladesh\nContact:   +88-01******\n\n");
                                 // Display university details (TODO: Implement this part)
                                 break;
 
@@ -247,7 +247,7 @@ int main() {
                                 break;
                             }
                             case 4:
-                                printf("Logged out successfully!\n");
+                                printf("\nLogged out successfully!\n");
                                 break;
 
                             default:
@@ -261,7 +261,7 @@ int main() {
             }
 
             case 3:
-                printf("Thanks For The Application 'DIU'. Goodbye!\n");
+                printf("\nThanks For The Application 'DIU'. Goodbye!\n");
                 break;
 
             default:
@@ -286,4 +286,3 @@ int main() {
 
     return 0;
 }
-
