@@ -124,9 +124,9 @@ int main() {
 
     int choice;
     do {
-        printf("DIU Admission Page\n");
-        printf("1. Create Your Account\n");
-        printf("2. Login\n");
+        printf("Daffodil International University- Admission Page\n");
+        printf("1. Sign in\n");
+        printf("2. Log in\n");
         printf("3. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
@@ -136,7 +136,7 @@ int main() {
                 char name[50];
                 char password[50];
 
-                printf("\nEnter Student Name: ");
+                printf("\nEnter Username: ");
                 scanf("%s", name);
                 printf("Enter Password: ");
                 scanf("%s", password);
@@ -152,7 +152,7 @@ int main() {
                 char name[50];
                 char password[50];
 
-                printf("\nEnter Student Name: ");
+                printf("\nEnter Username: ");
                 scanf("%s", name);
                 printf("Enter Password: ");
                 scanf("%s", password);
@@ -192,7 +192,6 @@ int main() {
                                 // Display department details (TODO: Implement this part)
                                 break;
                             }
-
                             case 2:
                                 printf("\nDaffodil International University (DIU) is a private university located in Dhaka, Bangladesh. It was established in 2002 and has since grown to become one of the prominent private universities in the country.\n");
                                 printf("\nChairman	Md. Sabur Khan\nChancellor	President of Bangladesh\nVice-Chancellor	M. Lutfar Rahman\nLocation	Daffodil Smart City, Birulia - 1216, Dhaka, Bangladesh\nContact:+88-01******\n\n");
@@ -230,7 +229,6 @@ int main() {
                                 printf("Enter Blood Group: ");
                                 scanf("%s", bloodGroup);
 
-
                                 struct AdmissionForm *newForm = createAdmissionForm(name, age, fatherName, motherName, city, email, phoneNumber, bloodGroup);
                                 addAdmissionForm(&admissionForms, newForm);
 
@@ -246,11 +244,8 @@ int main() {
                                     printf("Phone Number: %s\n",phoneNumber);
                                     printf("Blood Group: %s\n", bloodGroup);
 
-
-
                                 break;
                             }
-
                             case 4:
                                 printf("Logged out successfully!\n");
                                 break;
@@ -265,12 +260,8 @@ int main() {
                 break;
             }
 
-           // case 3:
-                // Main menu (handled inside the login case)
-               // break;
-
             case 3:
-                printf("Exiting the program. Goodbye!\n");
+                printf("Thanks For The Application 'DIU'. Goodbye!\n");
                 break;
 
             default:
